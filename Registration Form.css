@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header h1{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+header{
+    background-color: rgb(24, 179, 36);
+    padding: 40px;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 40px;
+    text-align: center;
+    float: right;
+    color: white;
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text],input[type=number],input[type=email],input[type=password], textarea ,select{  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+  
+
+input[type=text]:focus, input[type=password]:focus ,input[type=number]:focus,input[type=email]:focus,select:focus{  
+  background-color: rgb(248, 247, 245);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #3d3a3a;  
+  margin-bottom: 25px;  
+}  
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
